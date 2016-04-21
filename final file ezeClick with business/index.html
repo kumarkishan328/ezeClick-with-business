@@ -1,0 +1,182 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>ezeClick : Welcome</title>
+<link rel="stylesheet" type="text/css" href="js/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link href="Fonts/BentonSans-Book/bentonsans-book.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="js/jquery.min.js"> </script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"> </script>
+<script type="text/javascript" src="js/slides.min.jquery.js"> </script>
+<script type="text/javascript" src="js/jquery.mousewheel-3.0.6.pack.js"> </script>
+<script type="text/javascript" src="js/fancybox/jquery.fancybox-1.3.4.js"> </script>
+
+<script type="text/javascript">
+		$(function(){
+			$('.fancybox').fancybox({
+					'autoScale'         : false,
+				    'autoDimensions'    : false,
+					'padding'			: 0,
+					'margin'			: 0,
+				    'scrolling'         : 'no',
+				    'transitionIn'      : 'none',
+				    'transitionOut'     : 'none',
+				    'type'              : 'iframe'
+					
+			});
+		
+			$('#slides').slides({
+				preload: false,
+				preloadImage: 'img/loading.gif',
+				play: 4000,
+				pause: 2000,
+				hoverPause: true
+			});
+		});
+	</script>	
+
+<!--[if lt IE 7]>
+<script src="js/html5.js" type="text/javascript"></script>
+
+<![endif]-->
+<style>
+img a{outline:none;}
+a {outline:}
+#fancybox-content{height: 387px !important;}
+</style>
+</head>
+
+<body>
+<div id="wrapper">
+	<div id="top_header">
+    	<div class="logo"><a href="index.html" ><img src="images/american_express_ezeclick_logo.png"  alt="American Express ezeClick logo" border="0"/></a></div>
+<div class="menu_bar">
+            	<ul>
+                	<li><a href="https://www.americanexpress.com/india/"><img src="images/house.png" border="0" alt="home" /></a></li>
+                  <li><a href="https://www.americanexpress.com/india/" target="_blank">&nbsp;go to americanexpress.co.in</a></li>
+                    <li>|</li>
+                    <li><a href="#" style="color:#063379;">About ezeClick</a>
+                    <div class="clear"></div>
+                     <ul>
+                  <li><a href="how_it_works.html">How ezeClick works?</a></li>
+                  <li><a href="faq.html" >ezeClick FAQs</a></li>
+                  <li><a href="ezeClick_in_news.html">ezeClick in media</a></li>
+                  </ul>
+                    </li>
+            		<li>|</li>
+                    <li><a href="business.html" >ezeClick for Business </a></li>
+            	</ul>
+      </div>
+  </div>
+
+	<div class="band"></div>
+	
+    <div id="banner">
+      <div id="slides">
+        <div class="slides_container"><img src="images/header.jpg" border="0" alt="No Card details. No lengthy forms. No transaction hassles. Online shopping with just one ID."/><a  href="video/video.html" class="fancybox"  style="color:#0072bc; text-decoration:none;"><img src="images/header2.jpg" alt="Watch ezeClick in action" border="0"  /></a></div>
+      </div>      
+      <div class="from">
+    	<div class="already">Already enjoying the ezeClick advantage?<br />
+		<p class="black">Sign In</p>
+       
+        <form>
+        <form name="input" action="html_form_action.asp" method="get" >
+		<input type="text" maxlength="14" size="14" onchange="validateQPID('sfID', 'errQPID', '14', '6', 'error','Log');" onblur="if (this.value=='') this.value='Enter ezeClick ID';" onfocus="if (this.value=='Enter ezeClick ID') this.value='';" class="enter" value="Enter ezeClick ID" name="quickPayID" id="sfID"><br />
+
+        <div class="blue i"><a href="https://payments.billdesk.com/amexezeclick/forgotQuickPayID;jsessionid=0000xDCKPJZgNSP5ym3ShhMtPxM:151pkk6o3" style="color:#00397b;">Forgot ID?</a></div>
+       
+        <div class="sumit"><a href="#"><img src="images/sumit.png" border="0" alt="Submit"/></a></div>
+        </form> 
+        </div>
+       <div class="experience"><a href="https://payments.billdesk.com/amexezeclick/signUp;jsessionid=0000jsxiQNenlQ1pdzzdo2inRxS:151pkk6o3" ><img src="images/want_to_experience.png" border="0" alt="What to experience ezeClick advantage? Create ezeClick ID"/></a></div>
+     
+  <div class="menu">
+  <ul>
+  <li><a href="https://global.americanexpress.com/myca/logon/japa/action?request_type=LogonHandler&DestPage=https%3A%2F%2Fglobal.americanexpress.com%2Fmyca%2Fintl%2Facctsumm%2Fjapa%2FaccountSummary.do%3Frequest_type%3D%26Face%3Den_IN&Face=en_IN" target="_blank"  style=" outline:none;"><img src="images/card.png" border="0"  alt="Check your Card account details"/><span class="text"> Check your <br />Card account details <img src="images/arrow2.png" border="0" /></span></a></li>
+  <li><a href="http://www.americanexpress.com/india/customerservice/contactamex_phone.shtml?india_nav=cscontactmain" target="_blank"  style=" outline:none;"><img src="images/contacts.png" border="0" alt="Contact Us"/><span class="text">&nbsp;&nbsp;&nbsp;&nbsp; Contact Us <img src="images/arrow2.png" border="0" /></span></a></li>
+        </ul>
+        </div>
+      </div>
+   
+  </div>
+	
+	<div class="bg"></div>
+	
+    <div id="heights" >
+    <div class="box">
+    <div class="images"><img src="images/about_ezeClick.png" alt="About ezeClick" /></div>
+    <div class="about_ezeclick"><img src="images/about_ezeclick.jpg" /></div>
+    <div class="tt"><img src="images/arrow.jpg"/> <a href="video/video.html" class="fancybox"  style="color:#0072bc; text-decoration:none;">Watch</a><span style="color:#000000;"> ezeClick</span>  in action	</div>
+    <div class="tt"><img src="images/arrow.jpg" /><a href="how_it_works.html" style="color:#0072bc; text-decoration:none;">See how </a><span style="color:#000000">     ezeClick</span> works and join the online shopping revolution</div>
+    </div>
+       
+   <div class="box">
+    <div class="images"><img src="images/ezeClick_bussness.png" alt="ezeClick for business" /></div>
+    <div class="about_ezeclick"><img src="images/ezeClick_bussness_23.jpg" /></div>
+    <div class="tt"><img src="images/arrow.jpg" /><a href="https://payments.billdesk.com/amexezeclick/onlineMerchants;jsessionid=0000vM-dxZgajeozr7zs9J4v-hO:151pkk6o3" style="color:#0072bc; text-decoration:none;">Check out</a> why <span style="color:#000000;"> ezeClick</span> makes sense for your online business</div>
+   </div>
+   
+   </div>
+   
+   <img src="images/bottom_images.jpg" />
+   
+  <div style="overflow:hidden; height: 53px; margin:5px 20px 0px 0px; padding: 15px 0;width: 960px; azimuth:center;"><div id="images_marquee"> <img src="images/infibeam.jpg" alt="infibeam" width="100"  /> <img src="images/ebay_in.jpg" alt="ebay in" /> <img src="images/vodafone.jpg" alt="vodafone" /> <img src="images/make_my_trip.jpg" alt="makemytrip" /> <img src="images/book_my_show.jpg" alt="Book my Show" /> <img src="images/idea.jpg" alt="idea" /> <img src="images/spicejet.jpg" alt="Spicejet" /> <img src="images/tata_sky.jpg" alt="TATA SKY" /><img src="images/dominos_logo.jpg" alt="Dominos" /><img src="images/indiatimes_shopping.jpg" alt="Indiatimes Shopping" />
+  
+  <img src="images/infibeam.jpg" alt="infibeam" width="100"  /> <img src="images/ebay_in.jpg" alt="ebay in" /> <img src="images/vodafone.jpg" alt="vodafone" /> <img src="images/make_my_trip.jpg" alt="makemytrip" /> <img src="images/book_my_show.jpg" alt="Book my Show" /> <img src="images/idea.jpg" alt="idea" /> <img src="images/spicejet.jpg" alt="Spicejet" /> <img src="images/tata_sky.jpg" alt="TATA SKY" /><img src="images/dominos_logo.jpg" alt="Dominos" /><img src="images/indiatimes_shopping.jpg" alt="Indiatimes Shopping" />
+  
+   <img src="images/infibeam.jpg" alt="infibeam" width="100"  /> <img src="images/ebay_in.jpg" alt="ebay in" /> <img src="images/vodafone.jpg" alt="vodafone" /> <img src="images/make_my_trip.jpg" alt="makemytrip" /> <img src="images/book_my_show.jpg" alt="Book my Show" /> <img src="images/idea.jpg" alt="idea" /> <img src="images/spicejet.jpg" alt="Spicejet" /> <img src="images/tata_sky.jpg" alt="TATA SKY" /><img src="images/dominos_logo.jpg" alt="Dominos" /><img src="images/indiatimes_shopping.jpg" alt="Indiatimes Shopping" />
+   
+     <img src="images/infibeam.jpg" alt="infibeam" width="100"  /> <img src="images/ebay_in.jpg" alt="ebay in" /> <img src="images/vodafone.jpg" alt="vodafone" /> <img src="images/make_my_trip.jpg" alt="makemytrip" /> <img src="images/book_my_show.jpg" alt="Book my Show" /> <img src="images/idea.jpg" alt="idea" /> <img src="images/spicejet.jpg" alt="Spicejet" /> <img src="images/tata_sky.jpg" alt="TATA SKY" /><img src="images/dominos_logo.jpg" alt="Dominos" /><img src="images/indiatimes_shopping.jpg" alt="Indiatimes Shopping" />
+    
+      <img src="images/infibeam.jpg" alt="infibeam" width="100"  /> <img src="images/ebay_in.jpg" alt="ebay in" /> <img src="images/vodafone.jpg" alt="vodafone" /> <img src="images/make_my_trip.jpg" alt="makemytrip" /> <img src="images/book_my_show.jpg" alt="Book my Show" /> <img src="images/idea.jpg" alt="idea" /> <img src="images/spicejet.jpg" alt="Spicejet" /> <img src="images/tata_sky.jpg" alt="TATA SKY" /><img src="images/dominos_logo.jpg" alt="Dominos" /><img src="images/indiatimes_shopping.jpg" alt="Indiatimes Shopping" />
+     
+     <img src="images/infibeam.jpg" alt="infibeam" width="100"  /> <img src="images/ebay_in.jpg" alt="ebay in" /> <img src="images/vodafone.jpg" alt="vodafone" /> <img src="images/make_my_trip.jpg" alt="makemytrip" /> <img src="images/book_my_show.jpg" alt="Book my Show" /> <img src="images/idea.jpg" alt="idea" /> <img src="images/spicejet.jpg" alt="Spicejet" /> <img src="images/tata_sky.jpg" alt="TATA SKY" /><img src="images/dominos_logo.jpg" alt="Dominos" /><img src="images/indiatimes_shopping.jpg" alt="Indiatimes Shopping" />
+     
+     
+      <img src="images/infibeam.jpg" alt="infibeam" width="100"  /> <img src="images/ebay_in.jpg" alt="ebay in" /> <img src="images/vodafone.jpg" alt="vodafone" /> <img src="images/make_my_trip.jpg" alt="makemytrip" /> <img src="images/book_my_show.jpg" alt="Book my Show" /> <img src="images/idea.jpg" alt="idea" /> <img src="images/spicejet.jpg" alt="Spicejet" /> <img src="images/tata_sky.jpg" alt="TATA SKY" /><img src="images/dominos_logo.jpg" alt="Dominos" /><img src="images/indiatimes_shopping.jpg" alt="Indiatimes Shopping" />
+  
+  
+  </div></div>
+  
+  
+  <div class="fotter_bg"><img src="images/fotter_bg.jpg" alt="footer bg" />	</div>
+  <div class="fotter">
+<br />
+About American Express | Do Not Call Registry View Web Site Rules and Regulations, Trademarks,Privacy Statement and Sitemap.Copyright © 2012 American Express Company. All Rights Reserved. Users of this site agree to be bound by the terms of the American Express Web Site Rules and Regulations. Usage of Every American Express product is governed by specific Terms & Conditions. American Express Banking Corp., Cyber City, Tower C, DLF Bldg No.8, Sector - 25, DLF City Ph ll Gurgaon - 122002, India. Incorporated with Limited Liability in the USA. ® Registered trademark of American Express Company.</div>
+  </div>
+      </div>   
+    
+</div>
+
+
+<script type="text/javascript" src="js/gistfile1.js"> </script>
+<script type="text/javascript" >
+$(function(){
+	$('#images_marquee').marquee('pointer').mouseover(function () {
+	  $(this).trigger('stop');
+	}).mouseout(function () {
+	  $(this).trigger('start');
+	}).mousemove(function (event) {
+	  if ($(this).data('drag') == true) {
+		this.scrollLeft = $(this).data('scrollX') + ($(this).data('x') - event.clientX);
+	  }
+	}).mousedown(function (event) {
+	  $(this).data('drag', true).data('x', event.clientX).data('scrollX', this.scrollLeft);
+	}).mouseup(function () {
+	  $(this).data('drag', false);
+	});
+	
+	
+});
+</script>
+
+
+<!--[if IE ]>
+<style type="text/css">
+	.fancybox-skin, .fancybox-desktop, .fancybox-outer, .fancybox-wrap, .fancybox-skin, .fancybox-outer, .fancybox-inner, .fancybox-image, .fancybox-wrap iframe, .fancybox-wrap object, .fancybox-nav, .fancybox-nav span, .fancybox-tmp{margin:0px !important;padding:0px !important;}
+</style>
+<![endif]-->
+</body>
+</html>
